@@ -1,0 +1,79 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+.container {
+display: flex;
+align-items: flex-start;
+justify-content: center;
+height: 100vh;
+background-color: aqua;
+}
+
+.form-container {
+flex: 1;
+max-width: 500px;
+margin-right: 50px;
+}
+
+.form-container h2 {
+margin-top: 0;
+font-size: 24px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+.form-container form label {
+font-size: 16px;
+margin-bottom: 5px;
+font-weight: bold;
+display: block;
+}
+
+.form-container form input[type="text"],
+.form-container form input[type="number"] {
+padding: 10px;
+margin-bottom: 15px;
+border-radius: 5px;
+border: 1px solid #ccc;
+width: 100%;
+}
+
+.form-container form button[type="submit"] {
+background-color: #5DADE2;
+color: white;
+padding: 10px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+width: 18%;
+font-weight: bold;
+}
+
+.result-container {
+flex: 1;
+background-color: #f5f5f5;
+padding: 50px;
+max-width: 500px;
+}
+
+.result-container h2 {
+margin-top: 0;
+font-size: 24px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+.result-container p {
+font-size: 16px;
+margin-top: 0;
+font-weight: bold;
+margin-bottom: 5px;
+}
+
+.result-container .result {
+font-size: 24px;
+font-weight: bold;
+}
